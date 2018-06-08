@@ -34,13 +34,16 @@ export default {
     return {
       title: 'Valhalla',
       servants,
-      years: [
-        2014,
-        2015,
-        2016,
-        2017,
-        2018
-      ]
+      since: 2014
+    }
+  },
+  computed: {
+    years () {
+      let years = []
+      for (let i = 0; i <= new Date().getFullYear() - this.since; i++) {
+        years[i] = this.since + i
+      }
+      return years
     }
   }
 }
