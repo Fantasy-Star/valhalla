@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - lts/*
+cache:
+  yarn: true
+install:
+  - yarn
+script:
+  - yarn build
+after_success:
+  - cd dist
+  - git init
+  - git config user.name "YunYouJun"
+  - git config user.email "me@yunyoujun.cn"
+  - git add .
+  - git commit -m "Update Valhalla"
+  - git push -f "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+env:
+ global:
+   - GH_REF: github.com/Fantasy-Star/valhalla.git
+   - secure: "XADFSzyii9lqahE40ebDaoDusEYFpDXNn0wbnUlaG4702Buhfi1TLWtb+MXFh+2qHHizQxtwnGHID1p3GS539GtdSsYvj+lpD+fZS4LGK8KyRYWy8mGB4ZSuJVKhK3n/jUYVM4hgUK2MzGbjVGbcdjfsB8BlmD5vhUdRl7w0bGrvZ1UfAIQjgAIv5ulmPyfLIsvNyWk14Lu8tCDoZfqJ8fqmi0uOEfQIUkgjjNuV8m91gaayBiSJBsqv/qgiMX0roJoRM6Bqzvj3c3hxaOd55uL52AsyH9xL0z59Ur+QHoGvaSGux47zqcFJI/9ChsmjmxQs9IrtPMEk+vV3py59WCl8+TiOBTKi2PyHli18OscgNcWKu7i3wZ66bw6m11dj0Ju6Deop36l+gxqbkuFAuhVigo5pkNnx9CcJwPQw3gm2cuVGMhxryQAv1sDUBUL98K+oa7HGTO5ZUaxc8LIBb7tUqPg2adGD9EX9tLOZpwser09XtHS1ByDb0YGMRbCPU4l6Q2giICS2HsRDt06pluoVXJrBY1D6VZ7mksvqDfgAjZSF2A+HB6PEikAmrlt7YwGUp5YR/fTGmmlq/s9DtrptzGViXWdU9nBUgH4BHll3v5OM73OYnj5Kc+3663zV64Tl2jhR3PVm4Y4Ht3GKBwLROnZ5VkLq6R4xC+1NP3g="

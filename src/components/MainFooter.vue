@@ -53,7 +53,7 @@ export default {
           name: 'blog',
           color: '#6435C9',
           icon: 'iconfont icon-globe',
-          label: '博客：yunyoujun.cn',
+          label: 'fantasy-star.github.io',
           href: 'https://fantasy-star.github.io'
         },
       ]

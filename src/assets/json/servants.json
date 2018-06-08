@@ -3,10 +3,10 @@
     "year": 2014,
     "name": "林绍鹏",
     "title": "",
-    "nickname": "",
+    "nickname": "大少",
     "positions": ["社长"],
     "department": "",
-    "description": "中二病患者"
+    "description": "只手遮天"
   },
   {
     "year": 2014,
@@ -102,7 +102,7 @@
     "year": 2015,
     "name": "曲锦雄",
     "title": "",
-    "nickname": "",
+    "nickname": "大雄",
     "positions": ["社长"],
     "department": "小说部",
     "description": ""
@@ -174,7 +174,7 @@
     "year": 2016,
     "name": "赵鸿飞",
     "title": "幻文帝",
-    "nickname": "",
+    "nickname": "大狗",
     "positions": ["社长"],
     "department": "小说部",
     "description": "绍鹏当时就在旁边勾引我"
@@ -294,7 +294,7 @@
     "nickname": "大楚",
     "positions": ["社长"],
     "department": "小说部",
-    "description": "<img src='http://media.yunyoujun.cn/FantasyStar/img/valhalla/杀异性.png' alt='大楚：“杀异性”'>"
+    "description": "<img src='./img/kill-female.png' alt='大楚：“杀异性”'>"
   },
   {
     "year": 2017,
@@ -318,10 +318,10 @@
     "year": 2017,
     "name": "苏征策",
     "title": "",
-    "nickname": "",
+    "nickname": "阿苏巴",
     "positions": ["部长"],
     "department": "小说部",
-    "description": ""
+    "description": "<img src='./img/smile-with-sincerity.jpg' width='200' alt='真诚而礼貌地微笑'>"
   },
   {
     "year": 2017,
@@ -330,7 +330,7 @@
     "nickname": "",
     "positions": ["部长"],
     "department": "电影部",
-    "description": ""
+    "description": "<img src='./img/wa-sai.jpg' alt='哇噻'>"
   },
   {
     "year": 2017,
