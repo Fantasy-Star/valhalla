@@ -341,5 +341,70 @@
       "department": "科技部",
       "description": ""
     }
+  ],
+  "2018": [{
+      "name": "顾生凯",
+      "title": "",
+      "nickname": "",
+      "positions": ["社长"],
+      "department": "",
+      "description": ""
+    },
+    {
+      "name": "杨泽麟",
+      "title": "",
+      "nickname": "",
+      "positions": ["副社长"],
+      "department": "",
+      "description": ""
+    },
+    {
+      "name": "林峰",
+      "title": "",
+      "nickname": "",
+      "positions": ["副社长"],
+      "department": "",
+      "description": ""
+    },
+    {
+      "name": "苏泓博",
+      "title": "",
+      "nickname": "",
+      "positions": ["部长"],
+      "department": "科技部",
+      "description": ""
+    },
+    {
+      "name": "刘玥",
+      "title": "",
+      "nickname": "",
+      "positions": ["部长"],
+      "department": "科技部",
+      "description": ""
+    },
+    {
+      "name": "陈龙",
+      "title": "",
+      "nickname": "",
+      "positions": ["部长"],
+      "department": "小说部",
+      "description": ""
+    },
+    {
+      "name": "钱一苇",
+      "title": "",
+      "nickname": "",
+      "positions": ["部长"],
+      "department": "电影部",
+      "description": ""
+    },
+    {
+      "name": "刘荣",
+      "title": "",
+      "nickname": "",
+      "positions": ["部长"],
+      "department": "外联部",
+      "description": ""
+    }
   ]
 }

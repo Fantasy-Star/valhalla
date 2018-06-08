@@ -376,5 +376,77 @@
     "positions": ["副部长"],
     "department": "科技部",
     "description": ""
+  },
+  {
+    "year": 2018,
+    "name": "顾生凯",
+    "title": "",
+    "nickname": "",
+    "positions": ["社长"],
+    "department": "",
+    "description": ""
+  },
+  {
+    "year": 2018,
+    "name": "杨泽麟",
+    "title": "",
+    "nickname": "",
+    "positions": ["副社长"],
+    "department": "",
+    "description": ""
+  },
+  {
+    "year": 2018,
+    "name": "林峰",
+    "title": "",
+    "nickname": "",
+    "positions": ["副社长"],
+    "department": "",
+    "description": ""
+  },
+  {
+    "year": 2018,
+    "name": "苏泓博",
+    "title": "",
+    "nickname": "",
+    "positions": ["部长"],
+    "department": "科技部",
+    "description": ""
+  },
+  {
+    "year": 2018,
+    "name": "刘玥",
+    "title": "",
+    "nickname": "",
+    "positions": ["部长"],
+    "department": "科技部",
+    "description": ""
+  },
+  {
+    "year": 2018,
+    "name": "陈龙",
+    "title": "",
+    "nickname": "",
+    "positions": ["部长"],
+    "department": "小说部",
+    "description": ""
+  },
+  {
+    "year": 2018,
+    "name": "钱一苇",
+    "title": "",
+    "nickname": "",
+    "positions": ["部长"],
+    "department": "电影部",
+    "description": ""
+  },
+  {
+    "year": 2018,
+    "name": "刘荣",
+    "title": "",
+    "nickname": "",
+    "positions": ["部长"],
+    "department": "外联部",
+    "description": ""
   }
 ]
