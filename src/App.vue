@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <img class="logo" src="./assets/logo.png">
     <canvas id="bg"></canvas>
+    <!-- <el-header> -->
+      <app-logo></app-logo>
+    <!-- </el-header> -->
     <el-main>
       <Valhalla/>
     </el-main>
     <el-footer>
+      <hr>
       <main-footer></main-footer>
     </el-footer>
   </div>
 </template>
 
 <script>
+import AppLogo from '@/components/AppLogo.vue'
 import Valhalla from '@/components/Valhalla.vue'
 import MainFooter from '@/components/MainFooter.vue'
 
@@ -27,6 +31,7 @@ let pattern = Trianglify(
 export default {
   name: 'app',
   components: {
+    AppLogo,
     Valhalla,
     MainFooter
   },
@@ -55,10 +60,5 @@ export default {
   left: 0px;
   top: 0px;
   z-index: -1;
-}
-
-.logo {
-  border-radius: 50%;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
 }
 </style>
