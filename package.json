@@ -11,13 +11,13 @@
   },
   "dependencies": {
     "element-theme-ink": "^0.1.5",
-    "element-ui": "^2.4.0",
+    "element-ui": "^2.4.1",
     "gh-pages": "^1.2.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.3",
     "trianglify": "^1.2.0",
     "vue": "^2.5.16",
-    "vue-about-me": "^0.0.4"
+    "vue-about-me": "^0.0.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.15",
