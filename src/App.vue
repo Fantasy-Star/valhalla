@@ -60,7 +60,7 @@ export default {
       appKey: 'WayzRKEE9mb2YrhWpot2Veft',
       notify: true,
       verify: true,
-      avatar: 'mm', 
+      avatar: '', 
       placeholder: '不说些什么吗？'
     })
   }
