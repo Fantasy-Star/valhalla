@@ -6,6 +6,15 @@
 
 [幻星英灵殿](https://fantasy-star.github.io/valhalla/)
 
-## Todo
+## Function
 
-- Comment Component
+- Display Main Member
+  - year
+  - name
+  - tags
+  - nickname
+  - positions
+  - department
+  - description
+- Free Comment By Valine
+- Count Visitors

@@ -5,11 +5,9 @@
       <app-logo></app-logo>
     <!-- </el-header> -->
     <el-main>
-      <Valhalla/>
+      <valhalla></valhalla>
       <hr>
-      <el-card>
-        <div id="vcomments"></div>
-      </el-card>
+      <app-comment></app-comment>
     </el-main>
     <el-footer>
       <hr>
@@ -20,6 +18,7 @@
 
 <script>
 import AppLogo from '@/components/AppLogo.vue'
+import AppComment from '@/components/AppComment.vue'
 import Valhalla from '@/components/Valhalla.vue'
 import MainFooter from '@/components/MainFooter.vue'
 
@@ -32,15 +31,11 @@ let pattern = Trianglify(
   }
 )
 
-// Register AV objects to the global
-window.AV = require('leancloud-storage')
-// Use import
-import Valine from 'valine'
-
 export default {
   name: 'app',
   components: {
     AppLogo,
+    AppComment,
     Valhalla,
     MainFooter
   },
@@ -52,16 +47,6 @@ export default {
   mounted () {
     this.$nextTick(function () {
       pattern.canvas(document.getElementById('bg'))
-    })
-
-    new Valine({
-      el:'#vcomments',
-      appId: 'v6SY0igWP0SEhJT697CtfQq7-gzGzoHsz',
-      appKey: 'WayzRKEE9mb2YrhWpot2Veft',
-      notify: true,
-      verify: true,
-      avatar: '', 
-      placeholder: '不说些什么吗？'
     })
   }
 }
@@ -84,5 +69,11 @@ export default {
   left: 0px;
   top: 0px;
   z-index: -1;
+}
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
 }
 </style>
