@@ -2,13 +2,12 @@
 
 [![Build Status](https://www.travis-ci.org/Fantasy-Star/valhalla.svg?branch=master)](https://www.travis-ci.org/Fantasy-Star/valhalla)
 
-> The Valhalla of Fantasy Star
-
-[幻星英灵殿](https://fantasy-star.github.io/valhalla/)
+> [幻星英灵殿](https://fantasy-star.github.io/valhalla/) The Valhalla of Fantasy Star
 
 ## Function
 
-- Display Main Member
+- [x] Continuous integration By Travis-CI
+- [x] Display Main Member in the form of cards
   - year
   - name
   - tags
@@ -16,5 +15,5 @@
   - positions
   - department
   - description
-- Free Comment By Valine
-- Count Visitors
+- [x] Free Comment By Valine
+- [x] Count Visitors By leancloud
