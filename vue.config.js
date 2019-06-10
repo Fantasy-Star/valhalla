@@ -1,4 +1,4 @@
 module.exports = {
-  baseUrl: '/valhalla/',
+  publicPath: '/valhalla/',
   lintOnSave: true,
 }
