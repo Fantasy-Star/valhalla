@@ -1,7 +1,6 @@
 <template>
   <div>
-    <span id="/valhalla/" class="leancloud-visitors" data-flag-title="文章阅读量统计">
-      <!-- <span class="post-meta-item-text">访问量 </span> -->
+    <span id="/valhalla/" class="leancloud-visitors" data-flag-title="访问量统计">
       <svg class="icon" aria-hidden="true">
         <use xlink:href="#icon-eye"></use>
       </svg>
@@ -14,8 +13,12 @@
 </template>
 
 <script>
+import VueAboutMe from 'vue-about-me'
 export default {
   name: 'MainFooter',
+  components: {
+    VueAboutMe
+  },
   data () {
     return {
       copyright: {

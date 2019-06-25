@@ -17,3 +17,9 @@
   - description
 - [x] Free Comment By Valine
 - [x] Count Visitors By leancloud
+
+## CHANGELOG
+
+### 2019-06-25
+
+feat: Change to mdc style

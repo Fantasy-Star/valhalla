@@ -1,7 +1,7 @@
 <template>
-  <el-card class="comment-card">
+  <div class="comment-card">
     <div id="vcomments"></div>
-  </el-card>
+  </div>
 </template>
 
 <script>
@@ -30,13 +30,13 @@ export default {
 <style lang="scss">
 .comment-card {
   text-align: left;
-  margin: 10px;
-  min-height: 150px;
-
+  margin: 16px;
+  padding: 20px;
+  border-radius: 5px;
   background: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 255, 255, 0.2);
+  transition: 0.5s;
   &:hover {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4) !important;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
   }
 }
 </style>

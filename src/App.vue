@@ -1,18 +1,16 @@
 <template>
   <div id="app">
     <canvas id="bg"></canvas>
-    <!-- <el-header> -->
       <app-logo></app-logo>
-    <!-- </el-header> -->
-    <el-main>
+    <main>
       <valhalla></valhalla>
       <hr>
       <app-comment></app-comment>
-    </el-main>
-    <el-footer>
+    </main>
+    <footer>
       <hr>
       <main-footer></main-footer>
-    </el-footer>
+    </footer>
   </div>
 </template>
 
@@ -53,6 +51,10 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  margin: 0px;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -60,6 +62,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+  --mdc-theme-secondary: #8e71c1;
 }
 
 #bg {
@@ -75,5 +79,10 @@ export default {
   width: 1em; height: 1em;
   vertical-align: -0.15em;
   fill: currentColor;
+  overflow: hidden;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.3);
 }
 </style>
