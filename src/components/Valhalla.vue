@@ -59,4 +59,8 @@ export default {
   float: right;
   margin-left: 5px;
 }
+
+.mdc-fab {
+  background-color: rgba(0, 0, 0, 0.7);
+}
 </style>

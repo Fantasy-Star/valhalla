@@ -9,7 +9,6 @@ Vue.use(BackToTop)
 // Vue.config.productionTip = false
 
 // material
-import "@material/chips/dist/mdc.chips.min.css"
 import "@material/fab/dist/mdc.fab.min.css"
 import "@material/icon-button/dist/mdc.icon-button.min.css"
 import "@material/layout-grid/dist/mdc.layout-grid.min.css"

@@ -722,36 +722,6 @@
   dependencies:
     tslib "^1.9.3"
 
-"@material/checkbox@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.npm.taobao.org/@material/checkbox/download/@material/checkbox-2.3.0.tgz#3fd2d8ad4d602b8486f841fc561e01107f06b4a3"
-  integrity sha1-P9LYrU1gK4SG+EH8Vh4BEH8GtKM=
-  dependencies:
-    "@material/animation" "^1.0.0"
-    "@material/base" "^1.0.0"
-    "@material/dom" "^1.1.0"
-    "@material/feature-targeting" "^0.44.1"
-    "@material/ripple" "^2.3.0"
-    "@material/rtl" "^0.42.0"
-    "@material/theme" "^1.1.0"
-    tslib "^1.9.3"
-
-"@material/chips@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.npm.taobao.org/@material/chips/download/@material/chips-2.3.0.tgz#c778dfd61ab072a9771e69edb8b00917a6faf558"
-  integrity sha1-x3jf1hqwcql3HmntuLAJF6b69Vg=
-  dependencies:
-    "@material/animation" "^1.0.0"
-    "@material/base" "^1.0.0"
-    "@material/checkbox" "^2.3.0"
-    "@material/elevation" "^1.1.0"
-    "@material/feature-targeting" "^0.44.1"
-    "@material/ripple" "^2.3.0"
-    "@material/shape" "^1.1.1"
-    "@material/theme" "^1.1.0"
-    "@material/typography" "^2.3.0"
-    tslib "^1.9.3"
-
 "@material/dom@^1.1.0":
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/@material/dom/download/@material/dom-1.1.0.tgz#3bd3d1a3415b4181118fecb182d93beda56a6f8c"
@@ -987,7 +957,7 @@
 
 "@vue/cli-plugin-babel@^3.8.0":
   version "3.8.0"
-  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-3.8.0.tgz#a7ce6ef9c6680e7953c609d859451dd937c7284e"
+  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-3.8.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-plugin-babel%2Fdownload%2F%40vue%2Fcli-plugin-babel-3.8.0.tgz#a7ce6ef9c6680e7953c609d859451dd937c7284e"
   integrity sha1-p85u+cZoDnlTxgnYWUUd2TfHKE4=
   dependencies:
     "@babel/core" "^7.0.0"
@@ -998,7 +968,7 @@
 
 "@vue/cli-plugin-eslint@^3.8.0":
   version "3.8.0"
-  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-eslint/download/@vue/cli-plugin-eslint-3.8.0.tgz#0402dfd3864b0224bceb264df89a4209000bb98c"
+  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-eslint/download/@vue/cli-plugin-eslint-3.8.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-plugin-eslint%2Fdownload%2F%40vue%2Fcli-plugin-eslint-3.8.0.tgz#0402dfd3864b0224bceb264df89a4209000bb98c"
   integrity sha1-BALf04ZLAiS86yZN+JpCCQALuYw=
   dependencies:
     "@vue/cli-shared-utils" "^3.8.0"
@@ -3335,7 +3305,7 @@ evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
 
 execa@^0.8.0:
   version "0.8.0"
-  resolved "https://registry.npm.taobao.org/execa/download/execa-0.8.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fexeca%2Fdownload%2Fexeca-0.8.0.tgz#d8d76bbc1b55217ed190fd6dd49d3c774ecfc8da"
+  resolved "https://registry.npm.taobao.org/execa/download/execa-0.8.0.tgz?cache=0&sync_timestamp=1561462020819&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fexeca%2Fdownload%2Fexeca-0.8.0.tgz#d8d76bbc1b55217ed190fd6dd49d3c774ecfc8da"
   integrity sha1-2NdrvBtVIX7RkP1t1J08d07PyNo=
   dependencies:
     cross-spawn "^5.0.1"
@@ -3348,7 +3318,7 @@ execa@^0.8.0:
 
 execa@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/execa/download/execa-1.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fexeca%2Fdownload%2Fexeca-1.0.0.tgz#c6236a5bb4df6d6f15e88e7f017798216749ddd8"
+  resolved "https://registry.npm.taobao.org/execa/download/execa-1.0.0.tgz?cache=0&sync_timestamp=1561462020819&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fexeca%2Fdownload%2Fexeca-1.0.0.tgz#c6236a5bb4df6d6f15e88e7f017798216749ddd8"
   integrity sha1-xiNqW7TfbW8V6I5/AXeYIWdJ3dg=
   dependencies:
     cross-spawn "^6.0.0"
@@ -6901,8 +6871,8 @@ safe-regex@^1.1.0:
 
 sass-loader@^7.1.0:
   version "7.1.0"
-  resolved "https://registry.npm.taobao.org/sass-loader/download/sass-loader-7.1.0.tgz#16fd5138cb8b424bf8a759528a1972d72aad069d"
-  integrity sha1-Fv1ROMuLQkv4p1lSihly1yqtBp0=
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-7.1.0.tgz#16fd5138cb8b424bf8a759528a1972d72aad069d"
+  integrity sha512-+G+BKGglmZM2GUSfT9TLuEp6tzehHPjAMoRRItOojWIqIGPloVCMhNIQuG639eJ+y033PaGTSjLaTHts8Kw79w==
   dependencies:
     clone-deep "^2.0.1"
     loader-utils "^1.0.1"
@@ -6913,8 +6883,8 @@ sass-loader@^7.1.0:
 
 sass@^1.22.0:
   version "1.22.0"
-  resolved "https://registry.npm.taobao.org/sass/download/sass-1.22.0.tgz#70fcfa86d78450d98a54c7459d3f2c93d7abf30b"
-  integrity sha1-cPz6hteEUNmKVMdFnT8sk9er8ws=
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.22.0.tgz#70fcfa86d78450d98a54c7459d3f2c93d7abf30b"
+  integrity sha512-6BEkdLYPP26cKggrMuBjMWpguMFgeayW+35LGnzXqCipm86fUboSVAdRLFKRpk1ClMNzFZums6kKkjgWF00WoA==
   dependencies:
     chokidar "^2.0.0"
 
@@ -7909,7 +7879,7 @@ urix@^0.1.0:
 
 url-loader@^1.1.2:
   version "1.1.2"
-  resolved "https://registry.npm.taobao.org/url-loader/download/url-loader-1.1.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Furl-loader%2Fdownload%2Furl-loader-1.1.2.tgz#b971d191b83af693c5e3fea4064be9e1f2d7f8d8"
+  resolved "https://registry.npm.taobao.org/url-loader/download/url-loader-1.1.2.tgz?cache=0&sync_timestamp=1561461890706&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Furl-loader%2Fdownload%2Furl-loader-1.1.2.tgz#b971d191b83af693c5e3fea4064be9e1f2d7f8d8"
   integrity sha1-uXHRkbg69pPF4/6kBkvp4fLX+Ng=
   dependencies:
     loader-utils "^1.1.0"

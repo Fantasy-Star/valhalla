@@ -11,26 +11,26 @@
         {{ servant.department }}
       </h3>
 
-      <div class="mdc-chip">
-        <i class="mdc-chip__icon mdc-chip__icon--leading line-height-0">
+      <div class="servant-card-chip">
+        <i class="servant-card-chip__icon">
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-user-2-line"></use>
           </svg>
         </i>
-        <div class="mdc-chip__text">
+        <div class="servant-card-chip__text">
           <template v-for="position in servant.positions">
             {{ position }}
           </template>
         </div>
       </div>
 
-      <div class="mdc-chip" v-if="servant.department">
-        <i class="mdc-chip__icon mdc-chip__icon--leading line-height-0">
+      <div class="servant-card-chip" v-if="servant.department">
+        <i class="servant-card-chip__icon">
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-community-line"></use>
           </svg>
         </i>
-        <div class="mdc-chip__text">{{ servant.department }}</div>
+        <div class="servant-card-chip__text">{{ servant.department }}</div>
       </div>
 
       <div class="servant-card-description">
@@ -49,14 +49,6 @@ export default {
 </script>
 
 <style lang="scss">
-.line-height-0 {
-  line-height: 0;
-}
-
-.mdc-icon-button {
-  line-height: 1;
-}
-
 .servant-card {
   display: flex;
   border-radius: 4px;
@@ -74,12 +66,38 @@ export default {
     width: 100%;
   }
 
+  &-chip {
+    display: inline-flex;
+    border-radius: 1rem;
+    background-color: #e0e0e0;
+    color: rgba(0,0,0,.87);
+    font-size: .9rem;
+    line-height: 1.4;
+    margin: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+      background-color: rgba(#e0e0e0, 0.9);
+    }
+
+    &:active {
+      background-color: rgba(#e0e0e0, 0.8);
+    }
+
+    &__icon {
+      line-height: 1;
+      font-size: 20px;
+    }
+
+    &__text {
+      margin-left: 2px;
+    }
+  }
+
   &-description {
     margin: 5px;
   }
-}
-
-.mdc-chip {
-  margin: 4px;
 }
 </style>
