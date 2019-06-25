@@ -5,8 +5,6 @@
 </template>
 
 <script>
-// Register AV objects to the global
-window.AV = require('leancloud-storage')
 // Use import
 import Valine from 'valine'
 

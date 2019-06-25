@@ -17,7 +17,6 @@
     "@material/layout-grid": "^0.41.0",
     "@material/typography": "^2.3.0",
     "gh-pages": "^2.0.1",
-    "leancloud-storage": "^3.13.2",
     "sass": "^1.22.0",
     "sass-loader": "^7.1.0",
     "trianglify": "^2.0.0",
