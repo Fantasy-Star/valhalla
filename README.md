@@ -1,5 +1,7 @@
 # Valhalla
 
+![GitHub Pages](https://github.com/Fantasy-Star/valhalla/workflows/GitHub%20Pages/badge.svg)
+
 > [幻星英灵殿](https://fantasy-star.github.io/valhalla/) The Valhalla of Fantasy Star
 
 ## Function
@@ -24,4 +26,4 @@ feat: Change to mdc style
 
 ### 2020-08-23
 
-feat: use github actions instead [travis-ci](https://www.travis-ci.org/Fantasy-Star/valhalla)
+feat: use GitHub Actions instead of [Travis-CI](https://www.travis-ci.org/Fantasy-Star/valhalla)
