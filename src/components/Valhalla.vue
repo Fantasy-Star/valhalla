@@ -3,11 +3,15 @@
     <h1 class="mdc-typography--headline2">{{ title }}</h1>
     <div v-for="year in years" :key="year">
       <h2 class="mdc-typography--headline4">{{ year }}</h2>
-      <hr>
+      <hr />
       <div class="mdc-layout-grid">
         <div class="mdc-layout-grid__inner">
           <template v-for="(servant, key) in servants">
-            <div v-if="servant.year===year" class="mdc-layout-grid__cell" :key="key">
+            <div
+              v-if="servant.year === year"
+              class="mdc-layout-grid__cell"
+              :key="key"
+            >
               <character-card :servant="servant"></character-card>
             </div>
           </template>
@@ -27,30 +31,30 @@
 </template>
 
 <script>
-import servants from '../assets/json/servants.json'
-import CharacterCard from '@/components/CharacterCard.vue'
+import servants from "../assets/json/servants.json";
+import CharacterCard from "@/components/CharacterCard.vue";
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   components: {
-    CharacterCard
+    CharacterCard,
   },
-  data () {
+  data() {
     return {
-      title: '幻星英灵殿',
+      title: "幻星英灵殿",
       servants,
-      since: 2014
-    }
+      since: 2014,
+    };
   },
   computed: {
-    years () {
-      let years = []
+    years() {
+      let years = [];
       for (let i = 0; i <= new Date().getFullYear() - this.since; i++) {
-        years[i] = this.since + i
+        years[i] = this.since + i;
       }
-      return years
-    }
-  }
-}
+      return years;
+    },
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
