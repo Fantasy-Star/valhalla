@@ -1,53 +1,51 @@
 <template>
   <div id="app">
-    <canvas id="bg"></canvas>
-      <app-logo></app-logo>
+    <div id="bg"></div>
+    <app-logo></app-logo>
     <main>
       <valhalla></valhalla>
-      <hr>
+      <hr />
       <app-comment></app-comment>
     </main>
     <footer>
-      <hr>
+      <hr />
       <main-footer></main-footer>
     </footer>
   </div>
 </template>
 
 <script>
-import AppLogo from '@/components/AppLogo.vue'
-import AppComment from '@/components/AppComment.vue'
-import Valhalla from '@/components/Valhalla.vue'
-import MainFooter from '@/components/MainFooter.vue'
+import AppLogo from "@/components/AppLogo.vue";
+import AppComment from "@/components/AppComment.vue";
+import Valhalla from "@/components/Valhalla.vue";
+import MainFooter from "@/components/MainFooter.vue";
 
-import Trianglify from 'trianglify'
-let pattern = Trianglify(
-  {
-    x_colors: 'random',
-    cell_size: 75,
-    palette: ['YlGnBu', 'GnBu', 'Purples', 'Blues'],
-  }
-)
+import Trianglify from "trianglify";
+let pattern = Trianglify({
+  width: window.innerWidth,
+  height: window.innerHeight,
+  xColors: "random",
+  cellSize: 75,
+  palette: ["YlGnBu", "GnBu", "Purples", "Blues"],
+}).toCanvas();
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     AppLogo,
     AppComment,
     Valhalla,
-    MainFooter
+    MainFooter,
   },
-  data () {
-    return {
-
-    }
+  data() {
+    return {};
   },
-  mounted () {
-    this.$nextTick(function () {
-      pattern.canvas(document.getElementById('bg'))
-    })
-  }
-}
+  mounted() {
+    this.$nextTick(function() {
+      document.getElementById("bg").appendChild(pattern);
+    });
+  },
+};
 </script>
 
 <style lang="scss">
@@ -56,7 +54,7 @@ body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -76,7 +74,8 @@ body {
 }
 
 .icon {
-  width: 1em; height: 1em;
+  width: 1em;
+  height: 1em;
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
