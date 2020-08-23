@@ -454,7 +454,7 @@
     "year": 2019,
     "name": "袁明昊",
     "tags": [],
-    "nickname": "",
+    "nickname": "JLY",
     "positions": ["社长"],
     "department": "",
     "description": ""
@@ -463,7 +463,7 @@
     "year": 2019,
     "name": "蔣龙英",
     "tags": [],
-    "nickname": "",
+    "nickname": "JLY",
     "positions": ["副社长"],
     "department": "",
     "description": ""
@@ -500,7 +500,7 @@
     "name": "金叙杭",
     "avatar": "金叙杭.jpg",
     "tags": [],
-    "nickname": "",
+    "nickname": "凌空飞剑",
     "positions": ["部长"],
     "department": "科技部",
     "description": ""
@@ -535,8 +535,8 @@
   {
     "year": 2020,
     "name": "陈嘉沐",
-    "tags": ["幻星读完五十本书"],
-    "nickname": "",
+    "tags": [],
+    "nickname": "幻星读完五十本书",
     "positions": ["部长"],
     "department": "小说部",
     "description": ""
@@ -544,8 +544,8 @@
   {
     "year": 2020,
     "name": "朱嘉镇",
-    "tags": ["查拉图不说话"],
-    "nickname": "",
+    "tags": [],
+    "nickname": "查拉图不说话",
     "positions": ["副部长"],
     "department": "小说部",
     "description": ""
@@ -553,8 +553,8 @@
   {
     "year": 2020,
     "name": "高荟子",
-    "tags": ["阿尔吉侬"],
-    "nickname": "",
+    "tags": [],
+    "nickname": "阿尔吉侬",
     "positions": ["部长"],
     "department": "外联部",
     "description": ""
@@ -571,8 +571,8 @@
   {
     "year": 2020,
     "name": "何卓彧",
-    "tags": ["米格"],
-    "nickname": "",
+    "tags": [],
+    "nickname": "米格",
     "positions": ["部长"],
     "department": "科技部",
     "description": ""
