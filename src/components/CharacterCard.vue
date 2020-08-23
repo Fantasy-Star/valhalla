@@ -1,10 +1,17 @@
 <template>
   <div class="servant-card">
     <div class="servant-card__primary">
+      <div v-if="servant.avatar" class="hero-avatar">
+        <img
+          :src="'./images/avatar/' + servant.avatar"
+          :alt="servant.nickname"
+        />
+      </div>
+
       <h2 class="mdc-typography mdc-typography--headline6">
         {{ servant.name }}
         <small v-if="servant.nickname">
-          {{ '/' + servant.nickname }}
+          {{ "/" + servant.nickname }}
         </small>
       </h2>
       <h3 class="mdc-typography mdc-typography--subtitle2">
@@ -43,9 +50,9 @@
 <script>
 export default {
   props: {
-    servant: Object
-  }
-}
+    servant: Object,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -70,13 +77,13 @@ export default {
     display: inline-flex;
     border-radius: 1rem;
     background-color: #e0e0e0;
-    color: rgba(0,0,0,.87);
-    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.9rem;
     line-height: 1.4;
     margin: 4px;
     padding: 6px 10px;
     cursor: pointer;
-    transition: .2s;
+    transition: 0.2s;
 
     &:hover {
       background-color: rgba(#e0e0e0, 0.9);
@@ -98,6 +105,17 @@ export default {
 
   &-description {
     margin: 5px;
+  }
+}
+
+.hero-avatar {
+  margin-top: 1.8rem;
+  img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
   }
 }
 </style>

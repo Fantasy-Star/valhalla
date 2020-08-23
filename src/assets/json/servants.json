@@ -137,6 +137,7 @@
   {
     "year": 2015,
     "name": "杨睿",
+    "avatar": "夹心酱.jpg",
     "tags": [],
     "nickname": "",
     "positions": ["部长"],
@@ -294,7 +295,7 @@
     "nickname": "大楚",
     "positions": ["社长"],
     "department": "小说部",
-    "description": "<img src='./img/kill-female.png' alt='大楚：“杀异性”'>"
+    "description": "<img src='./images/kill-female.png' alt='大楚：“杀异性”'>"
   },
   {
     "year": 2017,
@@ -317,20 +318,20 @@
   {
     "year": 2017,
     "name": "苏征策",
+    "avatar": "smile-with-sincerity.jpg",
     "tags": [],
     "nickname": "阿苏巴",
     "positions": ["部长"],
-    "department": "小说部",
-    "description": "<img src='./img/smile-with-sincerity.jpg' width='200' alt='真诚而礼貌地微笑'>"
+    "department": "小说部"
   },
   {
     "year": 2017,
     "name": "冯煜藻",
+    "avatar": "wa-sai.jpg",
     "tags": [],
     "nickname": "",
     "positions": ["部长"],
-    "department": "电影部",
-    "description": "<img src='./img/wa-sai.jpg' alt='哇噻'>"
+    "department": "电影部"
   },
   {
     "year": 2017,
@@ -497,6 +498,7 @@
   {
     "year": 2019,
     "name": "金叙杭",
+    "avatar": "金叙杭.jpg",
     "tags": [],
     "nickname": "",
     "positions": ["部长"],
